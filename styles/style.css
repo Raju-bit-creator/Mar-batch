@@ -31,3 +31,16 @@ nav .about{
 .header span{
     color: red;
 }
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background: #edefed;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
