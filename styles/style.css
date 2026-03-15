@@ -67,7 +67,51 @@ footer{
     text-align: center;
     font-size: 18px;
 }
-.fa-home{
-    color: white;
+.fa{
+    color: #5f7969;
     font-size: 16px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    margin: 0 !important;
+    align-items: center;
+
+}
+.nav-links a{
+    color: #000;
+    text-decoration: none;
+    align-items: center;
+}
+.nav-links a:hover{
+    color: #16A34A;
+}
+.logo-text{
+    font-family: 'Poppins';
+    color: #000;
+    margin: 0 !important;
+}
+.logo-text:hover{
+    color: #16A34A;
+}
+.my-nav{
+    background: #fff;
+    padding: 40px 30px;
+}
+.login-btn{
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
 }
